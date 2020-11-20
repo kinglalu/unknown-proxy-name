@@ -1,0 +1,440 @@
+@font-face{
+	font-family: "Circular Std Bold"; 
+	src: url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.woff2");
+	format("woff2"); 
+}
+
+div {
+	font-family: "Circular Std Bold";
+}
+
+h1 {
+	text-align: center;
+	font-family: "Circular Std Bold";
+}
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+.main {
+  z-index: 9;
+}
+body {
+	background-image: url('images/nothing.PNG');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 10px;
+	margin: 0px;
+	overflow-x: hidden;
+	color: white;
+}
+
+nav {
+	position: relative;
+	top: 50px;
+	left: 20px;
+	margin: none;
+	box-sizing; 0px;
+}
+
+button {
+	color: white;
+	background: transparent;
+}
+
+.selected {
+	background-color: rgba(217, 220, 224, 0.25);
+}
+
+.bumpers { /* lb and rb buttons*/
+	border: none;
+	position: relative;
+	top: 25px;
+}
+
+#previous {
+	position: relative;
+	right: 20px;
+}
+
+#next {
+	position: relative;
+	left: 20px;
+}
+
+.nav {
+	position: relative;
+	top: 25px;
+	border-bottom: none;
+	border-top: none;
+	border-right: none;
+	border-left-color: rgb(217, 220, 224);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 105px;
+	text-align: center;
+
+}
+
+.main {
+	position: relative;
+	top: 100px;
+	left: 50px;
+	width: 670px;
+	height: 300px;
+	color: white;
+}
+
+.big {
+	border: solid;
+	border-radius: 3px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 2px;
+	border-bottom-width: 2px;
+	width: 50%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	background-image: url('images/big.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.top {
+	position: absolute;
+	left: 50.5%;
+	top: 0px;
+	border: solid;
+	border-radius: 3px;
+	border-left: none;
+	border-bottom: none;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	width: 49.5%;
+	height: 50%;
+	background-image: url('images/top.PNG');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.bottom {
+	position: relative;
+	left: 50.5%;
+	border: solid;
+	border-radius: 2.5px;
+	width: 49.5%;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 2px;
+	border-left: none;
+	bottom: 50%;
+	height: 49%;
+	background-image: url('images/bottom.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.crates {
+	position: relative;
+	top: 108px;
+	left: 50px;
+	color: white;
+}
+
+#options {
+	border-bottom: none;
+	border-top: none;
+	border-right: inset;
+	border-right-width: 1.5px;
+	border-right-color: rgb(217, 220, 224);
+	margin: 0.1px;
+	text-align: center;
+}
+
+p {
+	position: relative;
+	left: 10px;
+}
+
+/*------------------------------------------------------^^^^ home ^^^-------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------- collection ---------------------------------------------------------------------------------*/
+
+span {
+	left: 0px;
+	position: absolute;
+	top: 20px;
+}
+
+#classes {
+	width: 175px;
+	font-size: 16px;
+	cursor: default;
+}
+
+.heroes {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	margin: 0px;
+	border: solid rgb(217, 220, 224);
+	border-width: 1px;
+	border-bottom: none;
+	border-right: none;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+#hero4 {
+	border-right: solid rgb(217, 220, 224);
+	border-width: 1px;
+}
+
+#hero8 {
+	border-right: solid rgb(217, 220, 224);
+	border-width: 1px;
+}
+
+#hero12 {
+	border-right: solid rgb(217, 220, 224);
+	border-width: 1px;
+}
+
+#hero16 {
+	border-right: solid rgb(217, 220, 224);
+	border-width: 1px;
+}
+
+.label {
+	color: white;
+	position: relative;
+	top: 100px;
+}
+
+#cl {
+	position: relative;
+	left: 50px;
+	width: 175px;
+}
+
+#hl {
+	position: relative;
+	left: 251px;
+	top: 82px;
+}
+
+#class4 {
+	border-bottom: solid rgb(217, 220, 224);
+	border-width: 1px;
+}
+
+.loadout {
+	left: 0px;
+	top: 0px;
+	border: solid rgb(217, 220, 224);
+	border-bottom: none;
+	border-width: 1px;
+	margin: 0px;
+	padding: 6px;
+}
+
+.special {
+	left: 0px;
+	top: 0px;
+	border: solid rgb(217, 220, 224);
+	border-bottom: none;
+	border-width: 1px;
+	margin: 0px;
+	padding: 6px;
+}
+
+#class5 {
+	margin-top: 15px;
+}
+
+#class6 {
+	border-bottom: solid rgb(217, 220, 224);
+	border-width: 1px;
+}
+
+.object {
+	left: 0px;
+	top: 0px;
+	border: solid rgb(217, 220, 224);
+	border-bottom: none;
+	border-width: 1px;
+	margin: 0px;
+	padding: 6px;
+}
+
+#class7 {
+	margin-top: 15px;
+}
+
+#class9 {
+	border-bottom: solid rgb(217, 220, 224);
+	border-width: 1px;
+}
+
+.starfighter {
+	left: 0px;
+	top: 0px;
+	border: solid rgb(217, 220, 224);
+	border-bottom: none;
+	border-width: 1px;
+	margin: 0px;
+	padding: 6px;
+}
+
+#class10 {
+	margin-top: 15px;
+}
+
+#class12 {
+	border-bottom: solid rgb(217, 220, 224);
+	border-width: 1px;
+}
+
+img {
+	width: 55px;
+	height: 55px;
+	margin: 6px;
+}
+
+#hero 13 {
+	border-bottom: solid rgb(217, 220, 224);
+}
+
+/*---------------------------------------------------------^^^^ collection ^^^^-------------------------------------------------------------------------*/
+
+.play {
+	position: relative;
+	top: 100px;
+	left: 50px;
+	text-align: left;
+	vertical-align: middle;
+	width: fit-content;
+}
+
+#multiplayer {
+	position: absolute;
+	top: 0px;
+	left: 300px;
+	border-left: none;
+}
+
+#arcade {
+	position: absolute;
+	top: 0px;
+	left: 600px;
+	border-left: none;
+}
+
+#campaign {
+	position: absolute;
+}
+
+.modes {
+	border: solid rgb(217, 220, 224);
+	border-width: 1px;
+	height: 432px;
+	width: 300px;
+}
+
+#camp {
+	position: relative;
+	top: 30px;
+	left: 25%;
+    width: 150px;
+    height: 170px;
+}
+
+#multi {
+	position: relative;
+	left: 5px;
+	top: 15px;
+	width: 250px;
+	height: 225px;
+}
+
+#arc {
+	position: relative;
+	left: 5px;
+	top: 55px;
+	width: 250px;
+	height: 125px;
+}
+
+.content {
+	font-size: 12px;
+	color: gray;
+	cursor: default;
+}
+
+.title {
+	margin-top: 0;
+	cursor: default;
+}
+
+#s1{
+	position: relative;
+	top: 18.2%;
+}
+
+#s2{
+	position: relative;
+	top: 5%;
+}
+
+#s3{
+	position: relative;
+	top: 28%;
+}
+/*------------------------------------------------------------^^^ play ^^^------------------------------------------------------------------------------*/
+
+#challenges {
+	position: relative;
+	left: 50px;
+	font-size: 12px;
+	width: 211px;
+}
+
+#milestones {
+	position: relative;
+	left: 50px;
+	width: 211px;
+	top: 115px;
+	font-size: 12px;
+}
+
+.challenge {
+	left: 0px;
+	top: 0px;
+	border: solid rgb(217, 220, 224);
+	border-width: 1px;
+	margin: 0px;
+	padding: 6px;
+}
+
+.starfighters {
+	left: 0px;
+	top: 0px;
+	border: solid rgb(217, 220, 224);
+	border-width: 1px;
+	margin: 0px;
+	padding: 6px;
+}
+
+#classess {
+	position: relative;
+	top: 1px;
+	width: 175px;
+	font-size: 16px;
+}
