@@ -2,9 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Play</title>
+    <title>Surf Freely</title>
 	<link href="style.css" rel="stylesheet">
 	<link rel="shortcut icon" href="https://serimcheats.com/wp-content/uploads/2018/09/star_wars_battlefront_ii_icon.png">
+	  
   </head>
   <body>
     <nav>
@@ -16,7 +17,13 @@
 		  ><a class="link5" href="options.html"><button pin="5" id="options" class="nav c5">Options</button></a>
 	  <a href="collection.html"><button class="bumpers" id="next" role="navigation" title="next">Next</button></a>
 	</nav>
-	
+	<div id="particles-js">
+       <script>
+               /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+          particlesJS.load('particles-js', 'particles.json', function() {
+          console.log('particlesjs loaded.......');
+          });
+       </script>
 	<div class="play">
 	  <div class="modes" id="campaign">
 	    <img id="camp" src="images/alloy.png">
@@ -41,7 +48,7 @@
 	  </div>
 	</div>
 	
-	
+<script src="particles.js"></script>
   <script src="play.js"></script>  
   </body>
 </html>
