@@ -349,7 +349,7 @@ img {
 }
 
 #camp {
-	position: absolute;
+	position: relative;
 	top: 30px;
 	left: 25%;
     width: 227px;
