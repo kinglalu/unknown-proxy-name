@@ -7,9 +7,9 @@
 div {
 	font-family: "Circular Std Bold";
 }
-#proxtitle {
-	font-family: "Circular Std Bold"; 
-	font-size: 100px;
+.proxtitle {
+    font-family: "Circular Std Bold"; 
+    font-size: 100px;
 }
 
 h1 {
