@@ -347,6 +347,12 @@ img {
 	height: 432px;
 	width: 300px;
 }
+.proxbox {
+	border: solid rgb(317, 220, 224);
+	border-width: 1px;
+	height: 532px;
+	width: 600px;
+}
 
 #camp {
 	/* position: relative;
